@@ -11,3 +11,7 @@ app:
 test:
 	@echo "Running tests"
 	python -m pytest tests
+
+report:
+	@echo "Generating test report"
+	python -m pytest tests -v --cov --cov-report=html

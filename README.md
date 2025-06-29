@@ -219,8 +219,3 @@ coverage.py v7.8.0, created at 2025-05-12 22:01 +0700
     ```
 
 ---
-
-Terima kasih telah membaca dokumentasi ini🙏
-
-Salam hangat,
-Faris Munir Mahdi

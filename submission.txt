@@ -8,5 +8,4 @@ python -m pytest tests
 python -m pytest tests -v --cov --cov-report=html
 
 # Url Google Sheets:
-https://docs.google.com/spreadsheets/d/1MDLjCAZ2eMy-FxvBpDSJfNEkTOKOVoHORcrlyT8Vu-s/edit?gid=0#gid=0
-
+https://docs.google.com/spreadsheets/d/1bZOhgq65Tqkw-rIBBQTcHNMnGeW2tYQ7A-nMpXe-Lt0/edit?gid=0#gid=0

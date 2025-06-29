@@ -75,7 +75,8 @@ class TestPostgreSQLDataLoader:
         mock_create_engine.return_value = mock_engine
         loader = PostgreSQLDataLoader()
         
-        with patch.object(sample_dataframe, 'to_sql') as mock_to_sql:
+        # Patch pandas DataFrame.to_sql instead of the specific dataframe instance
+        with patch("pandas.DataFrame.to_sql") as mock_to_sql:
             result = loader.load(
                 sample_dataframe,
                 db_name="test_db",
