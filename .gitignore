@@ -1,0 +1,5 @@
+guide/
+postgres_data/
+utils/__pycache__/
+.env
+google-sheets-api.json
