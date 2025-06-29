@@ -2,7 +2,6 @@ guide/
 postgres_data/
 utils/__pycache__/
 __pycache__/
-htmlcov/
 .pytest_cache/
 .env
 google-sheets-api.json
