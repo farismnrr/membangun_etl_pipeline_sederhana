@@ -1,7 +1,7 @@
 .PHONY: migrate app test
 
 migrate: 
-	@echo "Running migration"
+	@echo "Running postgres docker and migrations"
 	docker compose up -d
 
 app:

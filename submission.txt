@@ -1,3 +1,6 @@
+# Menjalankan Postgres Docker dan Migrasi Database
+docker compose up -d
+
 # Menjalankan skrip
 python main.py
 
